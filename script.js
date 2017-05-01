@@ -3,7 +3,7 @@ $( "#search-bethnal-tube" ).on( "click", function() {
   // api request to be sent on button click
 
 
-  $.getJSON( 'https://api.tfl.gov.uk/StopPoint/940GZZLUBLG/arrivals?direction=inbound', function (data){
+  $.getJSON( 'https://api.tfl.gov.uk/StopPoint/940GZZLUACY/arrivals?direction=inbound', function (data){
   //leave this blank for now but inside this function we will write the code to manipulate the API requests
   var items = []
   var unsorted = []
@@ -40,13 +40,5 @@ $( "#search-bethnal-tube" ).on( "click", function() {
 
 
   });
-
-
-
-
-
-
-
-
 
 });
